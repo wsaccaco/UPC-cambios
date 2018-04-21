@@ -3,6 +3,7 @@ import './css/module.css'
 
 import $ from 'jquery';
 
-$.post("http://192.168.1.8/C0001G0001", {"Accept": "*/*"}, (data) => {
+$.post("http://192.168.1.8/C0002G0001", {"Accept": "*/*"}, (data) => {
     console.log(data)
 });
+
