@@ -1,3 +1,11 @@
 .module .col{
     padding-bottom: 15px;
 }
+
+.navbar {
+    justify-content: space-between;
+}
+
+.planificar .search{
+    padding: 10px 0;
+}

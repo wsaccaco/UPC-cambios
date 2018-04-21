@@ -2,9 +2,144 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Sistema Indra</title>
+    <script type="text/javascript" src="js/bundle.js" defer/>
 </head>
 <body>
+<div class="container planificar">
+    <div class="row">
+        <div class="col">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Volver</button>
+                <h3>Registrar Requerimiento</h3>
+                <a class="navbar-brand" href="#">Indra</a>
+            </nav>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col col-lg-4">
+            <dl class="row">
+                <dt class="col-sm-5">Portafolio:</dt>
+                <dd class="col-sm-7">..</dd>
+                <dt class="col-sm-5">Proyecto:</dt>
+                <dd class="col-sm-7">..</dd>
+            </dl>
+        </div>
+        <div class="col col-lg-4">
+            <dl class="row">
+                <dt class="col-sm-5">Solicitante:</dt>
+                <dd class="col-sm-7"> ..</dd>
+                <dt class="col-sm-5">Email:</dt>
+                <dd class="col-sm-7">..</dd>
+            </dl>
+        </div>
+        <div class="col col-lg-4">
+            A description list is perfect for defining terms.
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link" id="tecnico-tab" data-toggle="tab" href="#tecnico" role="tab"
+                       aria-controls="home" aria-selected="true">Evalución Técnica</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="riesgo-tab" data-toggle="tab" href="#riesgo" role="tab"
+                       aria-controls="profile" aria-selected="false">Evaluación Riesgo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="comite-tab" data-toggle="tab" href="#comite" role="tab"
+                       aria-controls="contact" aria-selected="false">Evaluación en Comite</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link active show" id="planificacion-tab" data-toggle="tab" href="#planificacion" role="tab"
+                       aria-controls="contact" aria-selected="false">Planificación</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="final-tab" data-toggle="tab" href="#final" role="tab"
+                       aria-controls="contact" aria-selected="false">Informe Final</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade" id="tecnico" role="tabpanel" aria-labelledby="home-tab">...1</div>
+                <div class="tab-pane fade" id="riesgo" role="tabpanel" aria-labelledby="profile-tab">...2</div>
+                <div class="tab-pane fade" id="comite" role="tabpanel" aria-labelledby="contact-tab">...3</div>
+                <div class="tab-pane fade show active" id="planificacion" role="tabpanel" aria-labelledby="contact-tab">
+                    <div class="row">
+                        <div class="col-12">
+                            <form class="form-inline search">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">First</th>
+                                    <th scope="col">Last</th>
+                                    <th scope="col">Handle</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>@fat</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>@twitter</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-12">
+                            <button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-primary btn-sm">Nuevo</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="final" role="tabpanel" aria-labelledby="contact-tab">...5</div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
